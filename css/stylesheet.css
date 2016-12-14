@@ -9,6 +9,14 @@ body {
     background-color: #F4F4F4;
 }
 
+div.mainLayout{
+  float:left;
+  width:50%;
+}
+div.clearFlt{
+  clear:both;
+}
+
 h5 {
 font-family: monospace;
 }
@@ -32,9 +40,9 @@ h2 {
 
 .header {
   width: 100%;
-  background-color: white;
+  background-color: #373737;
   padding: 0.5em;
-  color: #373737;
+  color: white;
 }
 
 h1 {
@@ -49,13 +57,16 @@ font-size: 2.5em;
 .sub-subheading {
   font-family: sans-serif;
   font-weight: bold;
-  padding: 0.75em;
+  padding: 1em;
   margin-bottom: -30px;
+  margin-left: -5px;
 }
 
 p {
   font-family: sans-serif;
-  padding: 0.75em;
+  padding: 0;
+  margin-left: 1.5em;
+  margin-right: 1em;
   text-align: justify;
   color: #373737;
   line-height: 1em;
@@ -71,7 +82,7 @@ text-align: justify;
     padding:0;
     height: 45px;
     text-align:center;
-    background-color: White;
+    background-color: white;
     color: #DCD0C0;
     text-align: center;
 }
@@ -116,6 +127,10 @@ img.Me {
   font-family: sans-serif;
 }
 
+.contactHeader {
+  text-align: center;
+}
+
 blockquote {
   float: right;
   width: 200px;
@@ -134,12 +149,22 @@ img.Painting {
   margin: 0px 20px 10px 10px;
 }
 
+input textarea {
+  color: #373737;
+  font-size: 0.75em;
+  font-family: sans-serif;
+}
+
+#submit:hover {
+  color: #373737;
+}
+
 .footer {
   clear: both;
   margin-bottom: 0;
   width: 100%;
   height: 60px;
-  background-color: white;
+  background-color: #373737;
 }
 
 main {
