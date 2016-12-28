@@ -2,11 +2,15 @@
 
 html, body {
   margin: 0;
+  padding: 0;
   height: 100%;
 }
 
 body {
-    background-color: #F4F4F4;
+   background-color: #F4F4F4;
+   min-height:100%;
+   position:relative;
+   padding-bottom:60px;
 }
 
 div.mainLayout{
@@ -37,6 +41,7 @@ h2 {
   line-height: 0;
   padding: 0.5px;
 }
+/*<!-- CSS line-height Property. (n.d.). CSS line-height Property [online]. Available at: http://www.w3schools.com/cssref/pr_dim_line-height.asp [Accessed 29 Nov. 2016] -->*/
 
 .header {
   width: 100%;
@@ -122,6 +127,7 @@ img.Me {
   display: block;
   margin: 0px auto;
 }
+/*<!-- Duckett, J. (2011) HTML and CSS design and build of websites. 2011 Edition. Manufactured in the United States of America. Published simultaneously in Canada. Published by John Wiley & Sons, Inc. 10475. Cross point Boulevard Indianapolis, IN 46256. -->*/
 
 .bio {
   font-family: sans-serif;
@@ -161,12 +167,18 @@ input textarea {
 
 .footer {
   clear: both;
+  bottom: 0;
   margin-bottom: 0;
   width: 100%;
   height: 60px;
   background-color: #373737;
+
 }
 
 main {
   height: 100%;
 }
+
+/*<!-- Colour Scheme Refrence, (Used Throughout):
+ The Martin Agency (20 Dec. 2013).  An Idea Lives On [online]. Available at: http://www.awwwards.com/sites/an-idea-lives-on [Accessed 17 Nov. 2016].
+ -->*/
