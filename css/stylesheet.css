@@ -13,6 +13,11 @@ body {
    padding-bottom:60px;
 }
 
+/*<!-- display size for average iPhone 5 -->*/
+<meta name="viewport" content="width=device-width, initial-scale=1">
+/*<!-- Pete LePage. (2016) Responsive Web Design Basics [online] Available at: https://developers.google.com/web/fundamentals/design-and-ui/responsive/ [Accessed 29 Dec. 2016].-->*/
+
+
 div.mainLayout{
   float:left;
   width:50%;
